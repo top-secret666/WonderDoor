@@ -61,6 +61,7 @@ google-services.json
 GoogleService-Info.plist
 
 # Local art downloads (keep folder, ignore heavy zips)
+_art_inbox 
 _art_inbox/**/*.zip
 _art_inbox/**/*.exr
 _art_inbox/**/*.hdr
