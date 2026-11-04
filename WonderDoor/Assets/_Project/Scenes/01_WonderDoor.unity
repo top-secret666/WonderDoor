@@ -6734,6 +6734,10 @@ PrefabInstance:
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[3].TangentOut.z
       value: 8.2845
       objectReference: {fileID: 0}
+    - target: {fileID: 4916593250929245850, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1901b29662a9ae549bf82a8afec88397, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8080,6 +8084,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arc_Door_Outer_3
       objectReference: {fileID: 0}
+    - target: {fileID: 4916593250929245850, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1901b29662a9ae549bf82a8afec88397, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8275,6 +8283,10 @@ PrefabInstance:
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[3].TangentOut.z
       value: 8.2845
       objectReference: {fileID: 0}
+    - target: {fileID: 4916593250929245850, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e0f9905e6cf9c2a44a03cb84597dcb3e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8818,6 +8830,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arc_Door_Outer_4
       objectReference: {fileID: 0}
+    - target: {fileID: 4916593250929245850, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e4549ef84df6a2741bea1a4534dcc5b3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9518,6 +9534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arc_Door_Outer_2
       objectReference: {fileID: 0}
+    - target: {fileID: 4916593250929245850, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4e6a6fb60fba53241b632cd7e8b46b0f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10955,6 +10975,10 @@ PrefabInstance:
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[3].TangentOut.z
       value: 8.2845
       objectReference: {fileID: 0}
+    - target: {fileID: 4916593250929245850, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4e6a6fb60fba53241b632cd7e8b46b0f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13020,6 +13044,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arc_Door_Outer_5
       objectReference: {fileID: 0}
+    - target: {fileID: 4916593250929245850, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b703cd735f65a479f4b57f5c6980b1, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16381,6 +16409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arc_Door_Outer_1
       objectReference: {fileID: 0}
+    - target: {fileID: 4916593250929245850, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e0f9905e6cf9c2a44a03cb84597dcb3e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16867,6 +16899,10 @@ PrefabInstance:
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[3].TangentOut.z
       value: 8.2845
       objectReference: {fileID: 0}
+    - target: {fileID: 4916593250929245850, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c94e8f87bc4745f458ed584b51ce6034, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
