@@ -194,7 +194,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 338e914bdd112b943ad9a827a8b923b3, type: 2}
+  - {fileID: 2100000, guid: efccc3c3da3fc8a499bae591bffcdcbe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -261,6 +261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f741c166958d8cc4fa1809848603bfe8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArcFloorUVLive
-  tilesAcross: 2
-  tilesAlong: 8
-  swapUV: 0
+  tilesAcross: -2
+  tilesAlong: -0.9426
+  swapUV: 1

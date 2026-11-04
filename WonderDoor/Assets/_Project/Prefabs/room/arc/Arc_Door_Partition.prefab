@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 4179076830270818923}
   - component: {fileID: 5688050498384420921}
   - component: {fileID: 4813366279485721903}
+  - component: {fileID: 4501511227773087850}
   m_Layer: 0
   m_Name: Jamb_L
   m_TagString: Untagged
@@ -61,13 +62,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1858082592258232171}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: -0.1675002, z: 0, w: 0.985872}
+  m_LocalPosition: {x: 1.402817, y: 0, z: -8.25669}
   m_LocalScale: {x: 1, y: 20, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3647801533654801093}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -19.285019, z: 0}
 --- !u!114 &1571157265759684850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,7 +272,7 @@ MonoBehaviour:
   m_SegmentsPerUnit: 1
   m_Capped: 1
   m_Radius: 0.5
-  m_Range: {x: 0.071426, y: 0.08}
+  m_Range: {x: 0, y: 0.008574}
   m_FlipNormals: 0
   m_Shape:
     rid: 1989963277380878337
@@ -294,6 +295,7 @@ GameObject:
   - component: {fileID: 3613921833780839570}
   - component: {fileID: 7184601006461071755}
   - component: {fileID: 3535310927018710663}
+  - component: {fileID: 5133189858398708904}
   m_Layer: 0
   m_Name: Jamb_R
   m_TagString: Untagged
@@ -309,13 +311,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4287980919051528461}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: -0.2789911, z: 0, w: 0.9602937}
+  m_LocalPosition: {x: 3.891802, y: 0, z: -13.39567}
   m_LocalScale: {x: 1, y: 20, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3647801533654801093}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -32.4, z: 0}
 --- !u!114 &6047490983097817912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -519,7 +521,7 @@ MonoBehaviour:
   m_SegmentsPerUnit: 1
   m_Capped: 1
   m_Radius: 0.5
-  m_Range: {x: 0.12, y: 0.128574}
+  m_Range: {x: 0, y: 0.008574}
   m_FlipNormals: 0
   m_Shape:
     rid: 1989963277380878337
@@ -529,3 +531,33 @@ MonoBehaviour:
     - rid: 1989963277380878337
       type: {class: Square, ns: UnityEngine.Splines.ExtrusionShapes, asm: Unity.Splines}
       data: 
+--- !u!114 &4501511227773087850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858082592258232171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f741c166958d8cc4fa1809848603bfe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArcFloorUVLive
+  tilesAcross: -10
+  tilesAlong: -1
+  swapUV: 1
+--- !u!114 &5133189858398708904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4287980919051528461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f741c166958d8cc4fa1809848603bfe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArcFloorUVLive
+  tilesAcross: -10
+  tilesAlong: -1
+  swapUV: 1
