@@ -12,6 +12,7 @@ using UnityEditor;
 [DisallowMultipleComponent]
 [RequireComponent(typeof(MeshFilter))]
 [RequireComponent(typeof(MeshRenderer))]
+[DefaultExecutionOrder(100)]
 public class ArcFloorUVLive : MonoBehaviour
 {
     [Header("Тайлинг (крути — видно сразу)")]
@@ -34,7 +35,7 @@ public class ArcFloorUVLive : MonoBehaviour
 #if UNITY_EDITOR
         EditorApplication.delayCall += () =>
         {
-            if (this == null) return;
+            if (this == null || !isActiveAndEnabled) return; // prefab assets / disabled objects have no extruded mesh
             Apply();
         };
 #else
