@@ -6681,7 +6681,7 @@ PrefabInstance:
     - target: {fileID: 4916593250929245850, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 1901b29662a9ae549bf82a8afec88397, type: 2}
+      objectReference: {fileID: 2100000, guid: e4549ef84df6a2741bea1a4534dcc5b3, type: 2}
     - target: {fileID: 5746548352507006583, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
       propertyPath: m_Name
       value: Arc_Door_Inner_1
@@ -8083,7 +8083,7 @@ PrefabInstance:
     - target: {fileID: 4916593250929245850, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 1901b29662a9ae549bf82a8afec88397, type: 2}
+      objectReference: {fileID: 2100000, guid: e4549ef84df6a2741bea1a4534dcc5b3, type: 2}
     - target: {fileID: 5746548352507006583, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
       propertyPath: m_Name
       value: Arc_Door_Outer_3
@@ -8829,7 +8829,7 @@ PrefabInstance:
     - target: {fileID: 4916593250929245850, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e4549ef84df6a2741bea1a4534dcc5b3, type: 2}
+      objectReference: {fileID: 2100000, guid: 52b703cd735f65a479f4b57f5c6980b1, type: 2}
     - target: {fileID: 5746548352507006583, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
       propertyPath: m_Name
       value: Arc_Door_Outer_4
@@ -13043,7 +13043,7 @@ PrefabInstance:
     - target: {fileID: 4916593250929245850, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 52b703cd735f65a479f4b57f5c6980b1, type: 2}
+      objectReference: {fileID: 2100000, guid: e0f9905e6cf9c2a44a03cb84597dcb3e, type: 2}
     - target: {fileID: 5746548352507006583, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
       propertyPath: m_Name
       value: Arc_Door_Outer_5
@@ -16846,7 +16846,7 @@ PrefabInstance:
     - target: {fileID: 4916593250929245850, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: c94e8f87bc4745f458ed584b51ce6034, type: 2}
+      objectReference: {fileID: 2100000, guid: 52b703cd735f65a479f4b57f5c6980b1, type: 2}
     - target: {fileID: 5746548352507006583, guid: eaccde0165ee45d5a1fd9761570842fa, type: 3}
       propertyPath: m_Name
       value: Arc_Door_Inner_2
