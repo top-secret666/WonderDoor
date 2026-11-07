@@ -47,6 +47,7 @@ Transform:
   - {fileID: 8905129395663449051}
   - {fileID: 882518846924699162}
   - {fileID: 6528659019447560705}
+  - {fileID: 4119342301062887188}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &118532359589610056
@@ -1164,4 +1165,26 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 47407111437773918, guid: 13bc30cd5405f1c4db43cabd2471c015, type: 3}
   m_PrefabInstance: {fileID: 8746874762256852422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9089708017796975266
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1887078562598508971}
+    m_Modifications:
+    - target: {fileID: 2806627359950472331, guid: 4e81c441c301417a9126cd6423fc0360, type: 3}
+      propertyPath: m_Name
+      value: Lamps
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4e81c441c301417a9126cd6423fc0360, type: 3}
+--- !u!4 &4119342301062887188 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5120582567381761462, guid: 4e81c441c301417a9126cd6423fc0360, type: 3}
+  m_PrefabInstance: {fileID: 9089708017796975266}
   m_PrefabAsset: {fileID: 0}
