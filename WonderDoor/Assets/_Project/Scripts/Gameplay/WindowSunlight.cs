@@ -9,6 +9,7 @@ public class WindowSunlight : MonoBehaviour
     [Range(5, 85)] public float elevation = 35f;
     public float yawOffset = 20f;
     public bool fromOtherSide = false;
+    [Tooltip("Слой, на который переводятся объекты этой комнаты; солнце светит только на него")] public int sunLayer = 8;
 
     void Start()
     {
@@ -19,11 +20,13 @@ public class WindowSunlight : MonoBehaviour
         if (fromOtherSide) across = -across;
         Quaternion rot = Quaternion.LookRotation(across) * Quaternion.Euler(elevation, yawOffset, 0f);
 
+        foreach (var t in GetComponentsInChildren<Transform>(true)) t.gameObject.layer = sunLayer;
         var go = new GameObject("~Sun"); go.transform.SetParent(transform, false);
         go.transform.rotation = rot;
         var l = go.AddComponent<Light>();
         l.type = LightType.Directional; l.color = sunColor; l.intensity = intensity;
-        l.shadows = LightShadows.Soft; l.shadowStrength = 0.95f;
+        l.cullingMask = 1 << sunLayer; l.shadows = LightShadows.Soft; l.shadowStrength = 0.95f;
         var d = go.AddComponent<UniversalAdditionalLightData>();
     }
 }
+
