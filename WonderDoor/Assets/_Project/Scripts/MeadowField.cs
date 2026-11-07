@@ -74,11 +74,15 @@ public class MeadowField : MonoBehaviour
         if (old != null) DestroyImmediate(old.gameObject);
     }
 
+    [Tooltip("Off: grass only on this object's own floor (child pieces stay bare). On: on child pieces too")]
+    public bool includeChildren = false;
+
     bool GetFloorBounds(out Bounds b)
     {
         b = new Bounds();
         bool has = false;
-        foreach (var r in GetComponentsInChildren<MeshRenderer>())
+        var list = includeChildren ? GetComponentsInChildren<MeshRenderer>() : GetComponents<MeshRenderer>();
+        foreach (var r in list)
         {
             if (r.gameObject.name == ChildName) continue;
             if (r.bounds.size.sqrMagnitude < 1e-6f) continue;
