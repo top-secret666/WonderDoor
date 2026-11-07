@@ -11,6 +11,8 @@ public class WindowSunlight : MonoBehaviour
     public bool fromOtherSide = false;
     public int sunLayer = 8;
 
+    Light sun; Bounds area;
+
     void Start()
     {
         var rs = GetComponentsInChildren<Renderer>();
@@ -23,10 +25,17 @@ public class WindowSunlight : MonoBehaviour
         foreach (var t in GetComponentsInChildren<Transform>(true)) t.gameObject.layer = sunLayer;
         var go = new GameObject("~Sun"); go.transform.SetParent(transform, false);
         go.transform.rotation = rot;
-        var l = go.AddComponent<Light>();
+        var l = go.AddComponent<Light>(); sun = l; area = b; area.Expand(new Vector3(1f, 4f, 1f));
         l.type = LightType.Directional; l.color = sunColor; l.intensity = intensity;
         l.cullingMask = 1 << sunLayer; l.shadows = LightShadows.Soft; l.shadowStrength = 0.95f;
         var d = go.AddComponent<UniversalAdditionalLightData>();
     }
-}
 
+    // солнце включено только когда камера внутри этой комнаты
+    void Update()
+    {
+        if (!sun) return;
+        var cam = Camera.main;
+        sun.enabled = cam && area.Contains(cam.transform.position);
+    }
+}

@@ -7,7 +7,8 @@ public class AutoMeshCollider : MonoBehaviour
     void Start()
     {
         var mf = GetComponent<MeshFilter>(); if (!mf.sharedMesh) return;
-        var mc = GetComponent<MeshCollider>() ?? gameObject.AddComponent<MeshCollider>();
+        var mc = GetComponent<MeshCollider>();
+        if (mc == null) mc = gameObject.AddComponent<MeshCollider>();
         mc.sharedMesh = null; mc.sharedMesh = mf.sharedMesh;
     }
 }
