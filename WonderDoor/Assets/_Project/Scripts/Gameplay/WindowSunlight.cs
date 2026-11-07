@@ -22,13 +22,14 @@ public class WindowSunlight : MonoBehaviour
         if (fromOtherSide) across = -across;
         Quaternion rot = Quaternion.LookRotation(across) * Quaternion.Euler(elevation, yawOffset, 0f);
 
-        foreach (var t in GetComponentsInChildren<Transform>(true)) t.gameObject.layer = sunLayer;
+        // light layer 1: only this room's renderers receive the sun (URP Rendering Layers)
+        foreach (var r in GetComponentsInChildren<Renderer>(true)) r.renderingLayerMask |= 2u;
         var go = new GameObject("~Sun"); go.transform.SetParent(transform, false);
         go.transform.rotation = rot;
         var l = go.AddComponent<Light>(); sun = l; area = b; area.Expand(new Vector3(1f, 4f, 1f));
         l.type = LightType.Directional; l.color = sunColor; l.intensity = intensity;
-        l.cullingMask = 1 << sunLayer; l.shadows = LightShadows.Soft; l.shadowStrength = 0.95f;
-        var d = go.AddComponent<UniversalAdditionalLightData>();
+        l.renderingLayerMask = 2; l.shadows = LightShadows.Soft; l.shadowStrength = 0.95f;
+        var d = go.AddComponent<UniversalAdditionalLightData>(); d.renderingLayers = 2u;
     }
 
 }
