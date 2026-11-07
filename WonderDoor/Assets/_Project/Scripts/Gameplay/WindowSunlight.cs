@@ -31,11 +31,4 @@ public class WindowSunlight : MonoBehaviour
         var d = go.AddComponent<UniversalAdditionalLightData>();
     }
 
-    // sun is on only while the camera is inside this room
-    void Update()
-    {
-        if (!sun) return;
-        var cam = Camera.main;
-        sun.enabled = cam && area.Contains(cam.transform.position);
-    }
 }

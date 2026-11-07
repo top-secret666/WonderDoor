@@ -830,6 +830,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1042120565497956540}
+  - component: {fileID: 4298029953722026243}
   m_Layer: 0
   m_Name: Arc_Corridor
   m_TagString: Untagged
@@ -6003,5 +6004,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f965a6d2910b4a138be58649e67f6e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4298029953722026243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9114648637226862671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e715f179c914f8cbd8699d86433c9dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
