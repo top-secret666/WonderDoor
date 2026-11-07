@@ -54,13 +54,13 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 1.8
-  m_Radius: 0.35
+  m_Height: 4.4
+  m_Radius: 0.6
   m_SlopeLimit: 45
-  m_StepOffset: 0.4
+  m_StepOffset: 0.6
   m_SkinWidth: 0.05
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 0.9, z: 0}
+  m_Center: {x: 0, y: 2.2, z: 0}
 --- !u!114 &3784366202517512981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,12 +74,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraPivot: {fileID: 524799952407715768}
-  walkSpeed: 4
-  runSpeed: 7
+  walkSpeed: 6
+  runSpeed: 13
   mouseSensitivity: 0.12
   gravity: -20
-  jumpHeight: 1.1
-  interactDistance: 3.5
+  jumpHeight: 1.6
+  interactDistance: 5
 --- !u!114 &5603923100008913192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97,7 +97,7 @@ MonoBehaviour:
   ambient: {r: 0.28, g: 0.29, b: 0.33, a: 1}
   bloomIntensity: 0.9
   vignette: 0.32
-  dustCount: 400
+  dustCount: 90
 --- !u!1 &1140978324046813967
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,7 +125,7 @@ Transform:
   m_GameObject: {fileID: 1140978324046813967}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.65, z: 0}
+  m_LocalPosition: {x: 0, y: 4.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

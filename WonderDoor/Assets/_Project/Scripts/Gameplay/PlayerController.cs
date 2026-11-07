@@ -5,8 +5,8 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public Transform cameraPivot;
-    public float walkSpeed = 4f, runSpeed = 7f, mouseSensitivity = 0.12f, gravity = -20f, jumpHeight = 1.1f;
-    public float interactDistance = 3.5f;
+    public float walkSpeed = 6f, runSpeed = 13f, mouseSensitivity = 0.12f, gravity = -20f, jumpHeight = 1.1f;
+    public float interactDistance = 5f;
 
     CharacterController cc; float pitch, vy;
 
@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
         Vector2 m = Vector2.zero;
         if (kb.wKey.isPressed) m.y += 1; if (kb.sKey.isPressed) m.y -= 1;
         if (kb.dKey.isPressed) m.x += 1; if (kb.aKey.isPressed) m.x -= 1;
-        float speed = kb.leftShiftKey.isPressed ? runSpeed : walkSpeed;
+        float speed = (kb.leftShiftKey.isPressed || kb.rightShiftKey.isPressed) ? runSpeed : walkSpeed;
         Vector3 move = (transform.right * m.x + transform.forward * m.y).normalized * speed;
 
         if (cc.isGrounded) { vy = -2f; if (kb.spaceKey.wasPressedThisFrame) vy = Mathf.Sqrt(jumpHeight * -2f * gravity); }
@@ -54,3 +54,4 @@ public class PlayerController : MonoBehaviour
             GUI.Label(new Rect(Screen.width / 2 - 40, Screen.height / 2 + 14, 200, 22), "[E] открыть / закрыть");
     }
 }
+

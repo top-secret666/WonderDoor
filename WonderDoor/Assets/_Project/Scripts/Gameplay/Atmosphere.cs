@@ -9,7 +9,7 @@ public class Atmosphere : MonoBehaviour
     public float fogDensity = 0.035f;
     public Color ambient = new Color(0.28f, 0.29f, 0.33f);
     public float bloomIntensity = 0.9f, vignette = 0.32f;
-    public int dustCount = 400;
+    public int dustCount = 90;
 
     void Start()
     {
@@ -36,8 +36,8 @@ public class Atmosphere : MonoBehaviour
         var go = new GameObject("~Dust"); go.transform.SetParent(parent, false);
         var ps = go.AddComponent<ParticleSystem>(); ps.Stop();
         var main = ps.main; main.loop = true; main.startLifetime = 9f; main.startSpeed = 0.03f;
-        main.startSize = new ParticleSystem.MinMaxCurve(0.015f, 0.04f); main.maxParticles = dustCount;
-        main.simulationSpace = ParticleSystemSimulationSpace.World; main.startColor = new Color(1f, 0.97f, 0.9f, 0.55f);
+        main.startSize = new ParticleSystem.MinMaxCurve(0.01f, 0.025f); main.maxParticles = dustCount;
+        main.simulationSpace = ParticleSystemSimulationSpace.World; main.startColor = new Color(1f, 0.97f, 0.9f, 0.35f);
         var em = ps.emission; em.rateOverTime = dustCount / 9f;
         var sh = ps.shape; sh.shapeType = ParticleSystemShapeType.Box; sh.scale = new Vector3(10f, 6f, 10f);
         var no = ps.noise; no.enabled = true; no.strength = 0.08f; no.frequency = 0.25f;
@@ -53,3 +53,4 @@ public class Atmosphere : MonoBehaviour
         ps.Play();
     }
 }
+
