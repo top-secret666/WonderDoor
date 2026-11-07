@@ -9,7 +9,7 @@ public class WindowSunlight : MonoBehaviour
     [Range(5, 85)] public float elevation = 35f;
     public float yawOffset = 20f;
     public bool fromOtherSide = false;
-    [Tooltip("Слой, на который переводятся объекты этой комнаты; солнце светит только на него")] public int sunLayer = 8;
+    public int sunLayer = 8;
 
     void Start()
     {
