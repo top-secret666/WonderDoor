@@ -32,4 +32,11 @@ public class WindowSunlight : MonoBehaviour
         var d = go.AddComponent<UniversalAdditionalLightData>(); d.renderingLayers = 2u;
     }
 
+    // generated meshes (meadow grass) can appear later, so keep tagging them for the sun
+    float nextTag;
+    void Update()
+    {
+        if (Time.time < nextTag) return; nextTag = Time.time + 0.5f;
+        foreach (var r in GetComponentsInChildren<Renderer>(true)) r.renderingLayerMask |= 2u;
+    }
 }
