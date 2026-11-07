@@ -343,6 +343,7 @@ GameObject:
   - component: {fileID: 7774642431171769064}
   - component: {fileID: 8338759318890533710}
   - component: {fileID: 4563754161475874663}
+  - component: {fileID: 7391204857716203311}
   m_Layer: 0
   m_Name: Floor_Segment_Room2
   m_TagString: Untagged
@@ -661,3 +662,26 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!114 &7391204857716203311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3649107392313953621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67a8b70d00564ef28dcaf35022be4c53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: c5633798a19a473db5fa4b0cefc2accd, type: 2}
+  grassPerM2: 14
+  flowersPerM2: 1.2
+  lavenderShare: 0.2
+  seed: 12345
+  maxTufts: 40000
+  grassHeight: {x: 0.35, y: 0.75}
+  flowerHeight: {x: 0.25, y: 0.5}
+  edgePadding: 0.15
+  clumpScale: 1.6
+  clumpStrength: 0.6
