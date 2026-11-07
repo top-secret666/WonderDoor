@@ -1,0 +1,593 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1758717040340295356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1217967004909616184}
+  m_Layer: 0
+  m_Name: Arc_Lamps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1217967004909616184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758717040340295356}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5693629938496268708}
+  - {fileID: 9056655516961424876}
+  - {fileID: 6345156301617246799}
+  - {fileID: 4876565799035714607}
+  - {fileID: 7487887148401220092}
+  - {fileID: 1978181607905703091}
+  - {fileID: 3908668649545303462}
+  - {fileID: 1416239792493477890}
+  - {fileID: 7005162803372033030}
+  - {fileID: 5892801350280914622}
+  - {fileID: 4984029701776984723}
+  - {fileID: 6726985129270142471}
+  - {fileID: 2832133488415416684}
+  - {fileID: 5594205573489853915}
+  - {fileID: 8380967151910036580}
+  - {fileID: 4555364928198338388}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6720323072520195788
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217967004909616184}
+    m_Modifications:
+    - target: {fileID: 8852380287587554198, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_Name
+      value: Arc_CeilingLamp_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 85.0846
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -19.7835
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+--- !u!4 &5693629938496268708 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+  m_PrefabInstance: {fileID: 6720323072520195788}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8065665786651714180
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217967004909616184}
+    m_Modifications:
+    - target: {fileID: 8852380287587554198, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_Name
+      value: Arc_CeilingLamp_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 90.7011
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -18.0798
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+--- !u!4 &9056655516961424876 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+  m_PrefabInstance: {fileID: 8065665786651714180}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5354272463839483175
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217967004909616184}
+    m_Modifications:
+    - target: {fileID: 8852380287587554198, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_Name
+      value: Arc_CeilingLamp_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 95.5812
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -14.819
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+--- !u!4 &6345156301617246799 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+  m_PrefabInstance: {fileID: 5354272463839483175}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5903584384180771655
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217967004909616184}
+    m_Modifications:
+    - target: {fileID: 8852380287587554198, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_Name
+      value: Arc_CeilingLamp_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 99.3046
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.2821
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+--- !u!4 &4876565799035714607 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+  m_PrefabInstance: {fileID: 5903584384180771655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8478841902502657684
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217967004909616184}
+    m_Modifications:
+    - target: {fileID: 8852380287587554198, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_Name
+      value: Arc_CeilingLamp_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 101.5506
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.8596
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+--- !u!4 &7487887148401220092 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+  m_PrefabInstance: {fileID: 8478841902502657684}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &662976687211467739
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217967004909616184}
+    m_Modifications:
+    - target: {fileID: 8852380287587554198, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_Name
+      value: Arc_CeilingLamp_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 102.1259
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.9814
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+--- !u!4 &1978181607905703091 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+  m_PrefabInstance: {fileID: 662976687211467739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2629773515501232846
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217967004909616184}
+    m_Modifications:
+    - target: {fileID: 8852380287587554198, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_Name
+      value: Arc_CeilingLamp_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 100.9809
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.7378
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+--- !u!4 &3908668649545303462 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+  m_PrefabInstance: {fileID: 2629773515501232846}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &137301444518487914
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217967004909616184}
+    m_Modifications:
+    - target: {fileID: 8852380287587554198, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_Name
+      value: Arc_CeilingLamp_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 98.2142
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.914
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+--- !u!4 &1416239792493477890 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+  m_PrefabInstance: {fileID: 137301444518487914}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8320367384992015214
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217967004909616184}
+    m_Modifications:
+    - target: {fileID: 8852380287587554198, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_Name
+      value: Arc_CeilingLamp_09
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 94.064
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 16.0642
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+--- !u!4 &7005162803372033030 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+  m_PrefabInstance: {fileID: 8320367384992015214}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4866099688398078422
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217967004909616184}
+    m_Modifications:
+    - target: {fileID: 8852380287587554198, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_Name
+      value: Arc_CeilingLamp_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 88.8878
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.8309
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+--- !u!4 &5892801350280914622 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+  m_PrefabInstance: {fileID: 4866099688398078422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6298953555623357947
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217967004909616184}
+    m_Modifications:
+    - target: {fileID: 8852380287587554198, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_Name
+      value: Arc_CeilingLamp_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 83.1314
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.9759
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+--- !u!4 &4984029701776984723 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+  m_PrefabInstance: {fileID: 6298953555623357947}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5700353355093606767
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217967004909616184}
+    m_Modifications:
+    - target: {fileID: 8852380287587554198, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_Name
+      value: Arc_CeilingLamp_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 77.2904
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.4006
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+--- !u!4 &6726985129270142471 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+  m_PrefabInstance: {fileID: 5700353355093606767}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3822841533192324612
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217967004909616184}
+    m_Modifications:
+    - target: {fileID: 8852380287587554198, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_Name
+      value: Arc_CeilingLamp_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 71.8679
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.1546
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+--- !u!4 &2832133488415416684 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+  m_PrefabInstance: {fileID: 3822841533192324612}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6909128955025646259
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217967004909616184}
+    m_Modifications:
+    - target: {fileID: 8852380287587554198, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_Name
+      value: Arc_CeilingLamp_14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 67.331
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.4312
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+--- !u!4 &5594205573489853915 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+  m_PrefabInstance: {fileID: 6909128955025646259}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7354265223859290892
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217967004909616184}
+    m_Modifications:
+    - target: {fileID: 8852380287587554198, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_Name
+      value: Arc_CeilingLamp_15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 64.0702
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.5511
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+--- !u!4 &8380967151910036580 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+  m_PrefabInstance: {fileID: 7354265223859290892}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3276188673287913532
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217967004909616184}
+    m_Modifications:
+    - target: {fileID: 8852380287587554198, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_Name
+      value: Arc_CeilingLamp_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.3665
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.9346
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+--- !u!4 &4555364928198338388 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315249526330943336, guid: 807df82199eb43e79372aad3990ea129, type: 3}
+  m_PrefabInstance: {fileID: 3276188673287913532}
+  m_PrefabAsset: {fileID: 0}
