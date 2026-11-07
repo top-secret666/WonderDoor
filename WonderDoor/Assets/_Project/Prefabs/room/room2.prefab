@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8039356359700812241}
+  - component: {fileID: 8997451956703768594}
   m_Layer: 0
   m_Name: room2
   m_TagString: Untagged
@@ -4163,3 +4164,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4768688397326349322, guid: 37734676d158f6c46bdf80a5f473635a, type: 3}
   m_PrefabInstance: {fileID: 7771975644023416303}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8997451956703768594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878000673543821929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd66da1485834c3aab982749c63c6b8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sunColor: {r: 1, g: 0.88, b: 0.68, a: 1}
+  intensity: 3
+  elevation: 35
+  yawOffset: 20
+  fromOtherSide: 0
