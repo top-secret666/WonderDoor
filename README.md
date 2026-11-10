@@ -13,7 +13,7 @@
 ![Splines](https://img.shields.io/badge/Splines-2.9-00A86B)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)
 
-<img src="docs/screenshots/00_hero_meadow_windows.png" alt="Sunlit meadow room with sky windows" width="100%"/>
+<img width="600" height="294" alt="Запись экрана 2026-11-10 191342 (1)" src="https://github.com/user-attachments/assets/b85bde4a-cc82-4770-a360-6d68d08ef605" />
 
 </div>
 
