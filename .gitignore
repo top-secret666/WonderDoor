@@ -68,3 +68,10 @@ _art_inbox/**/*.hdr
 _unity_create_log.txt
 _unity_import_log*.txt
 
+
+# Local scene/prefab snapshots kept outside the Unity project
+/_arc_backup/
+
+# Unity crash recovery
+**/[Aa]ssets/_Recovery/
+**/[Aa]ssets/_Recovery.meta
